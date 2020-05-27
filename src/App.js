@@ -14,15 +14,17 @@ const App = () => {
   // use state
   const [search, setSearch] = useState("");
 
-  function getSearchValue(query){
-    setSearch(query); //Update search value
+  // Search Value get
+  function getSearch(search){
+    setSearch(search); 
   }
 
   return (
     <div className="App">
       {/* Add imported components here to render them */}
-      <SearchBar getText={getSearchValue} />
+      
       <PostsPage search={search} />
+      <SearchBar getText={getSearch} />
     </div>
   );
 };
