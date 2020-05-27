@@ -15,7 +15,7 @@ const App = () => {
   const [search, setSearch] = useState("");
 
   // Search Value get
-  function getSearch(search){
+  cconst getSearch = (search) => {
     setSearch(search); 
   }
 
