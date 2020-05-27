@@ -1,3 +1,4 @@
+  
 .comment-text {
   text-align: left;
   padding: 2px;
@@ -17,6 +18,12 @@
   border: none;
   border-top: 1px solid #efefef;
   color: #999;
+
+  /* additional updates */
+  border-radius: 0px;
+  background: #ffffff;
+  box-shadow: inset -20px 20px 60px #d9d9d9, 
+              inset 20px -20px 60px #ffffff;
 }
 .user {
   font-size: 14px;
